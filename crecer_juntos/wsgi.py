@@ -1,6 +1,5 @@
 
 import os
 from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crecer_juntos_corrigido.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crecer_juntos.settings')
 application = get_wsgi_application()
